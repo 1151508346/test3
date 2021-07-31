@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv='Cache-Control' content='no-cache,must-revalidate'>
     <title>Document</title>
 </head>
 <body>
     <h1>这是一个静态页面</h1>
-    <h1>添加内容第一次</h1>
+    <h1 id="addOne">添加内容第一次</h1>
+    <script type='text/javascript'>
+        var addOne = document.getElementById('addOne')
+        addOne.innerHTML = '添加内容第二次'
+    </script>
 </body>
 </html>
