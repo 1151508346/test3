@@ -111,6 +111,11 @@
                 return num
             }
         }
+        document.addEventListener('plusReady',function(){
+            if(window.plus){
+                plus.navigator.setStatusBarBackground('#225aa5')
+            }
+        })
     </script>
 </body>
 
